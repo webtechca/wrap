@@ -87,6 +87,11 @@ public class GameUiController : MonoBehaviour
         pauseUi.SetActive(true);
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
     public void PlayGame()
     {
         Time.timeScale = 1;
